@@ -1,0 +1,97 @@
+Python offers a variety of built-in functions that are used frequently across different types of programming tasks. Here are some of the most commonly used ones:
+
+1. print() 
+Prints text data to the console.
+Example:
+print("Hello, World!")
+
+2. len()
+Returns the length of an object (e.g., a list, string, or tuple).
+Example:
+length = len("Hello")
+print(length)
+
+3. type()
+Returns the type of an object.
+Example:
+print(type(123))
+
+4. int(), float(), str()
+Convert values to integers, floating-point numbers, or strings.
+Example:
+int_number = int("42")
+float_number = float("3.14")
+str_string = str(123)
+
+print(type(int_number))
+print(type(float_number))
+print(type(str_string))
+
+5. range()
+Generates a sequence of numbers, often used in loops.
+Example:
+for i in range(5):
+    print(i)
+
+6. list(), tuple(), set(), dict()
+Create list, tuple, set, or dictionary objects.
+Example:
+list_1 = list([1,2,3])
+print(list_1)
+print(type(list_1))
+
+tuple_1 = tuple([1,2,3])
+print(tuple_1)
+print(type(tuple_1))
+
+set_1 = set([1,2,3])
+print(set_1)
+print(type(set_1))
+
+dict_1 = dict([("one",1), ("two",2), ("three",3)])
+print(dict_1)
+print(type(dict_1))
+
+7. sum()
+Returns the sum of an iterable.
+Example:
+sum_of_numbers = sum([1,2,3])
+print(sum_of_numbers)
+
+8. max(), min()
+Return the largest or smallest item in an iterable.
+Example:
+max_number = max([1, 2, 3])
+min_number = min([1, 2, 3])
+print(max_number)
+print(min_number)
+
+9. abs()
+Returns the absolute value of a number.
+Example:
+absolute_value = abs(-10)
+print(absolute_value)
+
+10. sorted()
+Returns a new sorted list from the elements of any iterable.
+Example:
+sorted_list = sorted([3, 1, 2])
+print(sorted_list)
+
+
+11. map()
+Applies a function to all items in an iterable.
+Example:
+string_list = list(map(str, [1, 2, 3]))
+print(string_list)
+print(type(string_list[0]))
+
+
+
+12. all(), any()
+Check if all or any elements of an iterable are true.
+Example:
+if_all_true = all([True, True, False])
+if_any_true = any([True, True, False])
+print(if_all_true)
+print(if_any_true)
