@@ -1,2 +1,2 @@
 # Python-Basic
-This is Python Basic for new learners.
+This is Python Basic for new learners. If you are new to python, you can start with Basics Of Python notebook.
